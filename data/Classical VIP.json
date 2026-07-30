@@ -1,0 +1,18 @@
+{
+    "id": 129010704,
+    "name": "Classical VIP",
+    "author": "iannpluton",
+    "creators": ["iannpluton"],
+    "verifier": "tux",
+    "verification": "https://www.youtube.com/watch?v=q3GMTDyeT3o",
+    "percentToQualify": 100,
+    "skillset": "Wave",
+    "records": [
+        {
+            "user": "TEST",
+            "link": "https://www.youtube.com/watch?v=q3GMTDyeT3o",
+            "percent": 100,
+            "enjoyment": 360
+        }
+    ]
+}
