@@ -51,8 +51,8 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Skillset</div>
+                            <p>{{ level.skillset || 'fuck 0-6 rick fuck 0-7 tyler blevins, get me in the ranked stack. ill show you what i can do.' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
@@ -71,7 +71,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="hz">
-                                <p>{{ record.hz }}Hz</p>
+                                <p>{{ record.enjoyment }}</p>
                             </td>
                         </tr>
                     </table>
@@ -85,9 +85,6 @@ export default {
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
-                    <div class="og">
-                        <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
-                    </div>
                     <template v-if="editors">
                         <h3>List Editors</h3>
                         <ol class="editors">
@@ -100,28 +97,44 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Levels must be under 30 seconds.
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Levels must have some quality, decoration isn't needed but preferred. Quality isn't going to have a strict definition just have something happening in the level.
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        Max cps is 10.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
+                        No secret ways can be in the level.
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        You can copy a level as long as your challenge is transformative, otherwise it is prohibited.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        2 Player levels are not allowed.
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        Levels that aren't possible on 240 TPS (Levels made with different TPS via TPS Bypass in mind) are prohibited.
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        The level creator and verifier MUST be in Los Santos (obviously)
+                    </p>
+                    <h3>Record Requirements</h3>
+                    <p>
+                        All completions must be recorded with clicks and cheat indicator.
+                    </p>
+                    <p>
+                        Completion videos should include the player hitting the endwall and the screen after that with cheat indicator.
+                    </p>
+                    <p>
+                        Refer to the <a href="https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit?gid=0#gid=0" target="_blank"><b><i>Pointercrate allowed hacks</i></b></a> for what hacks are allowed.
+                    </p>
+                    <p>
+                        Physics Bypass is not allowed for completions and submissions.
+                    </p>
+                    <p>
+                        100% Noclip Accuracy runs do not count as a legitmate completion.
                     </p>
                 </div>
             </div>

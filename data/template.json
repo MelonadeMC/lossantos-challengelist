@@ -1,0 +1,19 @@
+{
+    "id": 0,
+    "name": "",
+    "author": "",
+    "creators": [""],
+    "verifier": "",
+    "verification": "",
+    "percentToQualify": "100",
+    "skillset": "",
+    "records": [
+        {
+            "user": "Sample_Victor_1",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "enjoyment": 360,
+            "mobile": true
+        }
+    ]
+}
