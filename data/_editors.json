@@ -2,12 +2,17 @@
     {
         "role": "owner",
         "name": "slided",
-        "link": "https://www.youtube.com/@iannq"
+        "link": "https://www.youtube.com/@slidedlolgd"
     },
         {
         "role": "admin",
         "name": "ian",
-        "link": "https://www.youtube.com/@slidedlolgd"
+        "link": "https://www.youtube.com/@iannq"
+    },
+    {
+        "role": "admin",
+        "name": "voidy",
+        "link": "https://www.youtube.com/@voudee"
     },
     {
         "role": "dev",
