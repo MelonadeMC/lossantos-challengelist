@@ -103,7 +103,7 @@ export default {
                         Levels must have some quality, decoration isn't needed but preferred. Quality isn't going to have a strict definition just have something happening in the level.
                     </p>
                     <p>
-                        Max cps is 10.
+                        Max cps is 15.
                     </p>
                     <p>
                         No secret ways can be in the level.
